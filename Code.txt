@@ -17,155 +17,58 @@ class MyApp extends StatelessWidget
                         [
                         Container
                             (
-                            alignment: Alignment(0.5080080032348633, -0.5296833515167236),
-                            child: Container
+                            alignment: Alignment(-0.012103617191314697, -0.02105247974395752),
+                            padding: const EdgeInsets.all(10),
+                            child: TextField
                                 (
-                                child: Image.asset('assets/images/Image.JPG'),
-                                height: 150.0,
-                                width: 150.0,
-                                ),
-                            ),
-                        Container
-                            (
-                            alignment: Alignment(-0.470612108707428, 0.35989677906036377),
-                            child: Container
-                                (
-                                child: Image.asset('assets/images/Image.JPG'),
-                                height: 150.0,
-                                width: 150.0,
-                                ),
-                            ),
-                        Container
-                            (
-                            alignment: Alignment(-0.47320079803466797, -0.5284593105316162),
-                            child: Container
-                                (
-                                child: Image.asset('assets/images/Image.JPG'),
-                                height: 150.0,
-                                width: 150.0,
-                                ),
-                            ),
-                        Container
-                            (
-                            alignment: Alignment(0.5064029693603516, 0.3597806692123413),
-                            child: Container
-                                (
-                                child: Image.asset('assets/images/Image.JPG'),
-                                height: 150.0,
-                                width: 150.0,
-                                ),
-                            ),
-                        Container
-                            (
-                            child: Align
-                                (
-                                alignment: Alignment(0.45180773735046387, -0.10024046897888184),
-                                child: Text
+                                decoration: const InputDecoration
                                     (
-                                    'Some text here',
-                                    style: TextStyle(),
+                                    border: OutlineInputBorder(),
+                                    labelText: 'Input Text',
                                     )
                                 )
                             ),
                         Container
                             (
-                            child: Align
+                            alignment: Alignment(0.1381455659866333, 0.7007522583007812),
+                            padding: const EdgeInsets.all(10),
+                            child: TextButton
                                 (
-                                alignment: Alignment(-0.5475533604621887, -0.09886825084686279),
-                                child: Text
+                                onPressed: ()
+                                {
+                                    //Do Something
+                                },
+                                child: const Text('Insert Text',),
+                                style: TextButton.styleFrom
                                     (
-                                    'Some text here',
-                                    style: TextStyle(),
+                                    primary: Colors.white,
+                                    backgroundColor: Colors.blue,
+                                    fixedSize: Size(120.0,40.0),
                                     )
                                 )
                             ),
                         Container
                             (
-                            child: Align
+                            alignment: Alignment(-0.0016378164291381836, 0.1739751100540161),
+                            padding: const EdgeInsets.all(10),
+                            child: TextButton
                                 (
-                                alignment: Alignment(0.3310760259628296, -0.18838632106781006),
-                                child: Text
+                                onPressed: ()
+                                {
+                                    //Do Something
+                                },
+                                child: const Text('Insert Text',),
+                                style: TextButton.styleFrom
                                     (
-                                    'Some text here',
-                                    style: TextStyle(),
+                                    primary: Colors.white,
+                                    backgroundColor: Colors.blue,
+                                    fixedSize: Size(120.0,40.0),
                                     )
                                 )
                             ),
                         Container
                             (
-                            child: Align
-                                (
-                                alignment: Alignment(-0.6660653948783875, -0.18846380710601807),
-                                child: Text
-                                    (
-                                    'Some text here',
-                                    style: TextStyle(),
-                                    )
-                                )
-                            ),
-                        Container
-                            (
-                            child: Align
-                                (
-                                alignment: Alignment(0.33562278747558594, 0.6977143287658691),
-                                child: Text
-                                    (
-                                    'Some text here',
-                                    style: TextStyle(),
-                                    )
-                                )
-                            ),
-                        Container
-                            (
-                            child: Align
-                                (
-                                alignment: Alignment(-0.6598677635192871, 0.6979876756668091),
-                                child: Text
-                                    (
-                                    'Some text here',
-                                    style: TextStyle(),
-                                    )
-                                )
-                            ),
-                        Container
-                            (
-                            child: Align
-                                (
-                                alignment: Alignment(-0.6042567789554596, 0.7623230218887329),
-                                child: Text
-                                    (
-                                    'Some text here',
-                                    style: TextStyle(),
-                                    )
-                                )
-                            ),
-                        Container
-                            (
-                            child: Align
-                                (
-                                alignment: Alignment(0.3769514560699463, 0.7621053457260132),
-                                child: Text
-                                    (
-                                    'Some text here',
-                                    style: TextStyle(),
-                                    )
-                                )
-                            ),
-                        Container
-                            (
-                            child: Align
-                                (
-                                alignment: Alignment(-0.6005453169345856, -0.8416610360145569),
-                                child: Text
-                                    (
-                                    'Some text here',
-                                    style: TextStyle(),
-                                    )
-                                )
-                            ),
-                        Container
-                            (
-                            alignment: Alignment(-0.039495110511779785, -0.8458392471075058),
+                            alignment: Alignment(0.024251937866210938, -0.2959892153739929),
                             padding: const EdgeInsets.all(10),
                             child: TextField
                                 (
