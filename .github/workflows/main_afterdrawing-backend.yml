@@ -27,6 +27,7 @@ jobs:
         uses: gradle/gradle-build-action@0d13054264b0bb894ded474f08ebb30921341cee
         with:
           arguments: publish
+          path: '${{ github.workspace }}/backend-api/gradle/wrapper'
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v3
